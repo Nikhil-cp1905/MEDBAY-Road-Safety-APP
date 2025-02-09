@@ -1,0 +1,104 @@
+/* Overall Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Image Styling */
+.image-container {
+  margin-bottom: 20px;
+}
+
+.home-image {
+  width: 350px; /* Bigger, but not overwhelming */
+  height: auto;
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.1));
+}
+
+/* Title & Subtitle */
+.title {
+  font-size: 40px;
+  font-weight: 300;
+  color: #333;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 300;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 280px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 14px;
+  font-weight: 300;
+  color: #555;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Split Button */
+.split-button {
+  display: flex;
+  width: 100%;
+}
+
+.split-btn {
+  width: 50%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: #333;
+  background-color: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.split-btn.left {
+  border-radius: 20px 0 0 20px; /* Rounded on left side */
+}
+
+.split-btn.right {
+  border-radius: 0 20px 20px 0; /* Rounded on right side */
+}
+
+.split-btn:hover {
+  background-color: #d6d6d6;
+}
+
+/* Emergency Button */
+.emergency-btn {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  color: white;
+  background-color: #b71c1c; /* Muted dark red */
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.emergency-btn:hover {
+  background-color: #9b1515;
+}
+

@@ -1,0 +1,102 @@
+/* LoginPage.css */
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color: #fde8dc;
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-image {
+  width: 350px;
+  height: 200px;  /* Adjust as needed */
+  display: block; /* Centers the image and adds spacing */
+}
+
+
+.login-card {
+  background: white;
+  padding: 10rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+  height: 500px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: #f6f6f6;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group .icon {
+  color: gray;
+  margin-right: 10px;
+}
+
+.input-group input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #3d5a40;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background: #2c4530;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.footer-text {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.footer-text a {
+  color: #3d5a40;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
+

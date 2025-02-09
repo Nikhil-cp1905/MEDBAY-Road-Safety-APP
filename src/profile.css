@@ -1,0 +1,187 @@
+/* Full-screen background */
+body {
+  background-color: #FDD9E5;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Profile Card */
+.profile-card {
+  background: white;
+  padding: 80px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px; /* Adjust as needed */
+  height: 700px;
+
+}
+
+/* Profile Image */
+.profile-image {
+  display: flex;
+  justify-content: center;
+  margin-top: -40px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* MEDBAY Text */
+.medbay-text h2 {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #222;
+}
+
+/* Profile Buttons */
+.profile-buttons {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-button {
+  background: #3d5a40;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  flex: 1;
+  margin: 5px;
+  transition: 0.3s ease;
+}
+
+.profile-button:hover {
+  background: #E6B800;
+}
+
+/* Bottom Section */
+.profile-bottom {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.profile-bottom-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-bottom-field {
+  width: 90%;
+  background: #f7f7f7;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 8px;
+}
+
+.profile-bottom-field label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  display: block;
+}
+
+.profile-bottom-field p {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0 0;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Profile.css */
+
+/* ... (Existing CSS) ... */
+
+
+.profile-image {
+    /* ... (Existing styles) ... */
+    margin-bottom: 20px; /* Space between image and name */
+}
+
+.profile-img {
+    /* ... (Existing styles) ... */
+    width: 120px; /* Adjust size as needed */
+    height: 120px;
+    border: 5px solid white; /* Thicker border */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+}
+
+.medbay-text h2 {
+    /* ... (Existing styles) ... */
+    font-size: 28px; /* Larger font size */
+    color: #4B0082; /* Purple color */
+    margin-bottom: 20px; /* Add spacing */
+}
+
+.profile-buttons {
+    /* ... (Existing styles) ... */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center buttons */
+    gap: 10px; /* Space between buttons */
+    margin-bottom: 20px; /* Space below buttons */
+    color: #3d5a40;
+}
+
+.profile-button {
+    /* ... (Existing styles) ... */
+    width: 100%; /* Full width buttons */
+    background-color: #3d5a40; /* Slate blue */
+    color: white; /* White text */
+    padding: 12px 24px; /* Adjust padding */
+    border-radius: 8px; /* Less rounded corners */
+}
+
+.profile-button:hover {
+    background-color: #483D8B; /* Darker slate blue */
+}
+
+
+.profile-bottom-details {
+    /* ... (Existing styles) ... */
+    width: 100%;
+}
+
+.profile-bottom-field {
+    /* ... (Existing styles) ... */
+    background-color: #f0f0f5; /* Lighter background color */
+    padding: 12px; /* Adjust padding */
+    border-radius: 8px; /* Less rounded corners */
+    margin-bottom: 12px;
+}
+
+.profile-bottom-field label {
+    /* ... (Existing styles) ... */
+    color: #777; /* Lighter label color */
+    margin-bottom: 4px; /* Space between label and value */
+}
+
+.profile-bottom-field p {
+    /* ... (Existing styles) ... */
+    color: #333; /* Darker text color */
+    font-size: 18px; /* Slightly larger text */
+}
+
+/* ... (Rest of your CSS) ... */

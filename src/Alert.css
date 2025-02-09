@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+header h1 {
+   text-align: center;
+  flex-grow: 1;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  width: 50px;
+  color: black;
+}
+
+.bell-icon {
+  font-size: 24px;
+}
+.alert-container {
+   width: 340px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+margin: auto;
+}
+
+.alert-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.alert-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f8f8f8;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert-info {
+  text-align: left;
+}
+
+.alert-info h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.alert-info p {
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.location {
+  font-weight: 300;
+  font-size: 13px;
+}
+
+.alert-icon {
+  font-size: 24px;
+}
+
+.add-alert-btn {
+  margin-top: 20px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.plus-icon {
+  font-size: 24px;
+}
+/* Form Styling */
+label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+
+/* Input Field Focus Effect */
+input:focus, textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Submit Button Styling */
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+

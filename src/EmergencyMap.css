@@ -1,0 +1,229 @@
+.emergency-container {
+  background-color: white;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.medbay-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.map-container {
+  margin-bottom: 20px;
+}
+
+.map-title {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#emergency-map {
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.info-sections {
+  margin: 20px 0;
+}
+
+.info-card {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.info-card h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.info-content p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.action-btn {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.action-btn.request {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.action-btn.request:hover {
+  background-color: #45a049;
+}
+
+.action-btn.condition {
+  background-color: #2196F3;
+  color: white;
+}
+
+.action-btn.condition:hover {
+  background-color: #1e88e5;
+}
+
+.action-btn.direction {
+  background-color: #90CAF9;
+  color: black;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.action-btn.direction:hover {
+  background-color: #64b5f6;
+}
+
+.get-direction {
+  color: #1976D2;
+  text-decoration: underline;
+  display: block;
+  margin-top: 5px;
+}
+
+.coordinates {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.loading-text {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+
+/* GPS location styles */
+.location-info {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.location-info p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Error message styles */
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f8d7da;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Success message styles */
+.success-message {
+  color: #28a745;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  background-color: #d4edda;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Route information styles */
+.route-info {
+  background-color: #e9ecef;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.route-info h4 {
+  margin: 0 0 10px 0;
+  color: #495057;
+}
+
+.route-info p {
+  margin: 5px 0;
+  color: #6c757d;
+  font-size: 14px;
+}
+
+/* Map marker popup styles */
+.leaflet-popup-content {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 4px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .emergency-container {
+    padding: 10px;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .action-btn {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  #emergency-map {
+    height: 250px;
+  }
+}
+
+.metrics {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.distance, .time {
+  font-size: 24px;
+  margin: 5px 0;
+}
+
+.path-type {
+  color: #4CAF50;
+  text-align: center;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.alert-message {
+  color: #FF4444;
+  text-align: center;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
